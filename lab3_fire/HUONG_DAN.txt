@@ -1,0 +1,12 @@
+LAB 3 - ESP32 FreeRTOS MQTT WEBSITE
+
+1. Trong Wokwi, mo du an da luu. Sao luu sketch.ino cu, sau do dan noi dung esp32_freertos_mqtt.ino vao sketch.ino.
+2. Library Manager can co: DHT sensor library for ESPx, PubSubClient.
+3. Khong doi mach: DHT22 SDA -> GPIO15; MQ2 AOUT -> GPIO34; LED do 1 (bom) -> GPIO26; LED do 2 (quat) -> GPIO25.
+4. Chay Wokwi va cho den khi Serial Monitor hien '[MQTT] CONNECTED', '[MQTT] SENT'.
+5. Mo index.html bang Google Chrome (nhan dup vao file). May tinh can ket noi Internet de tai MQTT.js va Chart.js.
+6. Trang web phai hien 'MQTT da ket noi'. Theo doi nhiet do va gas sau 2.5 giay.
+7. Nhan 'Thu cong', sau do thu bat/tat quat va bom. Serial Monitor se hien '[MQTT CMD]'. Thu chuyen ve 'Tu dong'.
+8. Topic goc tren Website: lab3/huubui/fire01. Neu thay doi, phai doi ca 3 TOPIC_* trong sketch.ino cho giong nhau.
+
+Luu y: Broker cong khai, khong bao mat; chi dung de mo phong. Gas ADC khong phai ppm. Manual co the tat thiet bi du moi truong vuot nguong: khong dung thiet ke nay de bao ve chay thuc te.
